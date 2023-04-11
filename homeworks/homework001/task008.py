@@ -10,4 +10,4 @@ n = int(input('Введите длину шоколадки n: '))
 m = int(input('Введите ширину шоколадки m: '))
 k = int(input('Введите количество долек k: '))
 
-print(k % n == 0 or k % m == 0)
+print((k % n == 0 or k % m == 0) and k < n * m)
