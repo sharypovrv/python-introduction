@@ -13,7 +13,7 @@ min = int(input('min = '))
 max = int(input('max = '))
 result = list()
 for i in range(len(arr)):
-    if (arr[i] >= min and arr[i] <= max):
+    if (min <= arr[i] <= max):
         result.append(i)
 
 print(result)
