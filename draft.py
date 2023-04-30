@@ -1,1 +1,1 @@
-print(2 ** 0.5)
+print(2 ** 0.5) if False else False
