@@ -1,1 +1,4 @@
-print(2 ** 0.5) if False else False
+for i in range(5, 15):
+    for j in range(5, 15):
+        print(f"{i * j}\t", end="")
+    print()
