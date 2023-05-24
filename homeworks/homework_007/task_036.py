@@ -17,7 +17,7 @@
 # 6 12 18 24 30 36
 
 def print_operation_table(operation, num_rows=6, num_columns=6):
-    for i in range( num_rows):
+    for i in range(num_rows):
         for j in range(num_columns):
             print(round(operation(i + 1, j + 1), 3), end='\t')
         print()
